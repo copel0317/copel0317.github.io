@@ -1,0 +1,99 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hyunmin Lee
+    - name: Date of Birth
+      value: 21st April 1999
+    - name: Languages
+      value: Korean, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master
+      institution: University of Seoul, Seoul, Republic of Korea
+      year: 2023 - now
+      description:
+        - Department of Computer Science and Engineering
+        - Under Supervision of Professor Hyunggu Jung
+    - title: Bachelor
+      institution: University of Seoul, Seoul, Republic of Korea
+      year: 2019-2023
+      description:
+        - Department of Computer Science and Engineering
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: University of Seoul, Seoul, Republic of Korea
+      year: 2021 - 2022
+      description:
+        - Human-Centered Artificial Intelligence Lab (HCAIL)
+        - Under Supervision of Professor Hyunggu Jung
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Teaching Assistant
+      institution: University of Seoul, Seoul, Republic of Korea
+      year: 2022
+      description:
+        - Discrete Mathematics
+        - Programming Languages
+    - title: Teaching Assistant
+      institution: University of Seoul, Seoul, Republic of Korea
+      year: 2023
+      description:
+        - Discrete Mathematics
+        - Programming Languages
+
+    - title: Student Volunteer
+      year: 2022
+      description:
+        - CSCW 2022
+        - SIGCHI Korea Local Chapter Summer Event 2022
+        - ACM FAccT 2022
+    - title: Student Volunteer
+      year: 2023
+      description:
+        - IUI 2023
+        - CSCW 2023
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Encouragement Award in Real-world problem solving team competition 2023, University of Seoul
+        - Excellence Prize in Research Project Proposal Competition 2023, University of Seoul
+        - Excellence Prize in Barrier Free App Development Contest 2023, Hyundai AutoEver
+        - Gary Marsden Travel Awards, ACM SIGCHI
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Artificial Intelligence.
+      items: 
+        - Explainable AI
+        - Machine Learning
+        - Deep learning
+    - title: Human-Computer Interaction
+      items:
+        - UX Research
+    - title: Accessibility
+      items:
+        - Alt Text
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Online Games
